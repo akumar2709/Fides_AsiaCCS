@@ -1,6 +1,9 @@
 # Fides_AsiaCCS
 This repository contains the code for our paper "A Generative Framework for Low-Cost Result Validation of Machine Learning-as-a-Service Inference"
 
+link - https://dl.acm.org/doi/10.1145/3634737.3657015
+
+
 ```
 @inproceedings{10.1145/3634737.3657015,
 author = {Kumar, Abhinav and Aguilera, Miguel A. Guirao and Tourani, Reza and Misra, Satyajayant},
