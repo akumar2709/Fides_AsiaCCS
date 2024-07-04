@@ -1,5 +1,5 @@
 # Fides_AsiaCCS
-We will soon update the repository with the code for our paper "A Generative Framework for Low-Cost Result Validation of Machine Learning-as-a-Service Inference"
+This repository contains the code for our paper "A Generative Framework for Low-Cost Result Validation of Machine Learning-as-a-Service Inference"
 
 ```
 @inproceedings{KumA2024,
@@ -9,3 +9,11 @@ We will soon update the repository with the code for our paper "A Generative Fra
   year={2024}
 }
 ```
+
+## Disclaimer
+
+**DO NOT USE THIS SOFTWARE TO SECURE ANY 
+REAL-WORLD DATA OR COMPUTATION!**
+
+This software is a proof-of-concept, meant for 
+testing purposes only.
