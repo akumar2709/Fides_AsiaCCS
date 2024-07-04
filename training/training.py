@@ -10,7 +10,18 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras import layers
 from function_dispatcher import function_dispatcher
 
+img_augmentation = Sequential(
+    [
+        layers.RandomRotation(factor=0.15),
+        layers.RandomTranslation(height_factor=0.1, width_factor=0.1),
+        layers.RandomFlip(),
+        layers.RandomContrast(factor=0.1),
+    ],
+    name="img_augmentation",
+)
+
 def input_preprocess(image, label):
+    image = img_augmentation(image)
     label = tf.one_hot(label, NUM_CLASSES)
     return image, label
 
