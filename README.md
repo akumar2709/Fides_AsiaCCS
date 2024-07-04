@@ -34,6 +34,13 @@ series = {ASIA CCS '24}
   ```bash
 	$   python attack_testing.py
 ```
+We test our SGX deployment using Gramine-SGX. Documentation for which can be found here -
+
+https://gramine.readthedocs.io/en/stable/
+
+Example code for deploying TFlite (the format used for testing) Can be 
+
+https://github.com/gramineproject/examples/tree/master/tensorflow-lite
 
 
 ## Disclaimer
