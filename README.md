@@ -38,7 +38,7 @@ We test our SGX deployment using Gramine-SGX. Documentation for which can be fou
 
 https://gramine.readthedocs.io/en/stable/
 
-Example code for deploying TFlite (the format used for testing) can be found at - 
+Example code for deploying TFlite (the format used for testing) can be found here - 
 
 https://github.com/gramineproject/examples/tree/master/tensorflow-lite
 
