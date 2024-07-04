@@ -9,6 +9,13 @@ This repository contains the code for our paper "A Generative Framework for Low-
   year={2024}
 }
 ```
+To test Fides -
+
+1) Open the training folder and run the training script to train a service model
+2) Open the distillation folder and then run the distillation script to train a distillation model
+3) Run detector_corrector_training.py to train the detection and correction model
+4) Run attack_testing.py to test the detection and correction model
+
 
 ## Disclaimer
 
