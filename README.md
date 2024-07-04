@@ -21,7 +21,7 @@ series = {ASIA CCS '24}
 
 
 ```
-To test Fides -
+## To test Fides -
 
 1) Open the training folder and run the training script to train a service model
 2) Open the distillation folder and then run the distillation script to train a distillation model
@@ -29,8 +29,9 @@ To test Fides -
   ```bash
 	$   python detector_corrector_training.py
 ```
-5) Run
-   ```bash
+
+4) Run
+```bash
 	$   python attack_testing.py
 ```
 
