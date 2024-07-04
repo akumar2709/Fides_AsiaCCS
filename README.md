@@ -24,7 +24,7 @@ series = {ASIA CCS '24}
 ## To test Fides -
 
 1) Open the training folder and run the training script to train a service model
-2) Open the distillation folder and then run the distillation script to train a distillation model
+2) Open the distillation folder and run the distillation script to train a distilled verification model
 3) Run
   ```bash
 	$   python detector_corrector_training.py
