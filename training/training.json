@@ -1,0 +1,27 @@
+{
+
+	"First Model" :
+	{
+		"model_id": 1,
+        	"dataset": "Cifar10",
+        	"architecture": "ResNet152",
+        	"batch_size": 32,
+        	"num_classes": 10,
+        	"weights": "None",
+        	"top": "False",
+        	"classifier_activation": "None",
+        	"image_size": 224,
+        	"hyperparameters": {
+                	"epoch": 100,
+                	"learning rate": 1e-4
+        	},
+        	"split": {
+                	"train": "train",
+                	"test": "test"
+        	},
+        	"optimizer": "adam",
+        	"metrics": ["accuracy"],
+        	"output": ["ResNet152.h5"]
+	}
+
+}
