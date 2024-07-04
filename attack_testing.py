@@ -405,8 +405,8 @@ GACN = GACN_model(NUM_CLASSES)
 detector = tf.keras.models.load_model("ResNetCifar10_detector.h5")
 corrector = tf.keras.models.load_model("ResNetCifar10_corrector.h5")
 
-service = tf.keras.models.load_model("ResNet152.h5")
-verification = tf.keras.models.load_model("ResNet50_distilled.h5")
+service = tf.keras.models.load_model("training/ResNet152.h5")
+verification = tf.keras.models.load_model("distillation/ResNet50_distilled.h5")
 
 GADN_models = GADN(detector, GACN, corrector, verification, service)
 optimizer = tf.keras.optimizers.Adam(learning_rate=1e-4)
